@@ -1,0 +1,47 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.parentContainer {
+  justify-content: center;
+  height: 66%;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+  align-self: center;
+}
+
+.container {
+  display: flex;
+  height: 30%;
+  width: 25%;
+  justify-content: center;
+  background: aquamarine;
+  align-self: center;
+}
+
+.boxContainer {
+  display: flex;
+  flex: 1;
+}
+
+.box {
+  flex: 1;
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+.marker {
+  visibility: hidden;
+}
